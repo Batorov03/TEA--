@@ -1,0 +1,230 @@
+button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger_menu {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 20px;
+}
+
+.burger_menu span {
+    background-color: #000;
+    height: 2px;
+    width: 100%;
+    /*display: none;*/
+}
+
+.desktop_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    list-style: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.Personal {
+    display: flex;
+    gap: 20px;
+}
+
+.search {
+    cursor: pointer;
+}
+
+.img__section {
+    background-image: url("../images/tea__main.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    /*background-position: bottom center;*/
+    background-size: cover;
+    width: 100%;
+}
+
+.main__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*align-items: flex-end;*/
+    min-height: 500px;
+    padding-left: 15px;
+}
+
+.main__text {
+    color: var(--White, #FFF);
+    /* H1 Title 60px */
+    font-family: Cormorant;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 60px */
+}
+
+.about__text {
+    color: var(--White, #FFF);
+    /* H3 Title 24px Light */
+    font-family: Cormorant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.center_Text {
+    padding-top: 150px;
+    text-align: center;
+    color: var(--Black, #151618);
+    text-align: center;
+    /* Quotation 40px Italic Light */
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Text1 {
+    color: var(--Black, #151618);
+    /* H2 Title 40px */
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.Tea__sorts {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /*gap: 40px;*/
+    /*margin-right: 15px;*/
+    /*margin-left: 15px;*/
+}
+
+.sort {
+    width: 200px;
+    height: 208px;
+    gap: 40px;
+}
+
+.mobile_menu {
+    display: none;
+}
+
+.desktop_menu {
+    display: flex;
+}
+
+@media (max-width: 1001px) {
+    .nav {
+
+        padding-right: 140px;
+
+    }
+
+    .main__img {
+        padding-left: 15px;
+    }
+
+    .sort {
+        width: 200px;
+        height: 208px;
+        /*gap: 0px;*/
+        /*margin-right: 0px;*/
+        /*margin-left: 0px;*/
+    }
+
+
+}
+
+
+@media (max-width: 860px) {
+    .nav {
+        display: none;
+    }
+
+    .Personal {
+        padding-left: 650px;
+        min-height:  100px;
+    }
+
+    .burger {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*margin-top: 30px;*/
+    }
+
+}
+
+/*.nav {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    width: 360px;*/
+/*    margin: 0 auto;*/
+/*    background-color: #FFFFFF;*/
+/*    display: block;*/
+/*    align-items: center;*/
+/*    padding-top: 60px;*/
+/*}*/
+
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}
+
+
